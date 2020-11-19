@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_action_about"
+            android:title="@string/about_app" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_action_camera"
+            android:title="@string/camera" />
+        <item
+            android:id="@+id/nav_stego_in"
+            android:icon="@drawable/ic_action_stego_in"
+            android:title="@string/stego_in" />
+        <item
+            android:id="@+id/nav_stego_aus"
+            android:icon="@drawable/ic_action_stego_aus"
+            android:title="@string/stego_aus" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_key_and_message"
+                android:icon="@drawable/ic_action_key_and_message"
+                android:title="@string/key_and_message" />
+            <item
+                android:id="@+id/nav_show_key"
+                android:icon="@drawable/ic_action_show_key"
+                android:title="@string/show_key" />
+        </menu>
+    </item>
+
+</menu>
